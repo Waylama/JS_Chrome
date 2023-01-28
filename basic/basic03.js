@@ -12,4 +12,12 @@ if(isNaN(age)||age<0){
 	console.log("You can drink but be careful");
 }
 
+// getElementsByClassName
 
+const hellos = document.getElementsByClassName("hello");
+
+console.log(hellos);
+
+const title = document.querySelectorAll(".div h1");
+
+console.log(title);
